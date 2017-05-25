@@ -1,7 +1,11 @@
 # Update package repository
 apt-get update
-apt-get install libjpeg-dev libpng-dev libtiff-dev libgif-dev
-apt-get install automake
+apt-get install -y git
+apt-get install -y libjpeg-dev libpng-dev libtiff-dev libgif-dev
+apt-get install -y automake
+
+apt-get install -y php53-gd
+apt-get install -y php53-imagick
 
 # Install WebP
 echo "Downloading webp..."
